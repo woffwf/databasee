@@ -1,0 +1,22 @@
+from .orders.available_flight_controller import AvailableFlightController
+from .orders.airline_controller import AirlineController
+from .orders.airport_controller import AirportController
+from .orders.avaible_weight_controller import AvaibleWeightController
+from .orders.info_for_buyed_tickets_controller import InfoForBuyedTicketsController
+from .orders.tickets_controller import TicketsController
+from .orders.user_controller import UserController
+from .orders.user_purchase_history_controller import UserPurchaseHistoryController
+from .orders.available_flights_has_avaible_weight_controller import AvailableFlightsHasAvaibleWeightController
+from .orders.connected_flight_controller import ConnectedFlightController
+
+
+film_controller = AvailableFlightController()
+actor_controller = AirlineController()
+description_controller = AirportController()
+extra_info_controller = AvaibleWeightController()
+film_has_rating_controller = InfoForBuyedTicketsController()
+genre_controller = TicketsController()
+interesting_facts_controller = UserController()
+person_controller = UserPurchaseHistoryController()
+rating_controller = AvailableFlightsHasAvaibleWeightController()
+review_controller = ConnectedFlightController()
